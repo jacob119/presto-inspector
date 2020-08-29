@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:presto://localhost:9080/hive/default
+    username: 2071098
+    driver-class-name: com.facebook.presto.jdbc.PrestoDriver
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
+schedule:
+  interval: 2000
